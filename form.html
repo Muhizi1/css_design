@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Request</title>
+    <link rel="icon" type="image/png" href="logo.png" border-radius="100%">
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Service Request Form</h1>
+
+    <nav>
+        <button><a href="index.html">Home</a> </button> 
+        <button><a href="about.html">About</a></button>  
+        <button><a href="services.html">Services</a></button>
+         <button><a href="contact.html">Contact</a></button>
+         <button><a href="form.html">Service Request</a></button>
+         <button><a href="media.html">Media</a></button>
+    </nav>
+    <hr>
+</header>
+
+<main>
+    <section class="form-section">
+        <form class="service-form">
+            <h2> Service_Request_Form</h2>
+            <p>Fill in the form below and we’ll get back to you shortly.</p>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+                <label>Phone Number</label>
+                <input type="number" placeholder="Enter your Number" required>
+                <label>Service Needed</label>
+                <select required>
+                    <option disabled selected id="select">Select a service You want</option>
+                    <option>Electrical Installation</option>
+                    <option>Maintenance & Repair</option>
+                    <option>Safety Inspection</option>
+                    <option>Other</option>
+                </select>
+                <label>Message</label>
+                <textarea rows="4" placeholder="Describe your request"></textarea> <br><br>
+    
+            <button type="submit">Send Request</button>
+        </form>
+    </section>
+</main>
+<footer>
+<div class="s_footer">
+    <output>Form Ready</output><br>
+    <progress value="70" max="100"></progress><br>
+<meter value="40" max="50"></meter><br>
+
+    <cite>&copy; 2026 Prime Electrical Services All Rights Reserved</cite>
+</div>
+</footer>
+
+</body>
+</html>
